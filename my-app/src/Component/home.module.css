@@ -1,0 +1,14 @@
+
+.everyBookmark p:first-child{
+    font-weight: bolder;
+    color: #38404C
+}
+
+.everyBookmark p{
+    color: blue
+}
+
+.topFooter{
+    display: flex;
+    justify-content: space-around;
+}
