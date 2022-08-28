@@ -10,5 +10,113 @@
 
 .topFooter{
     display: flex;
+    
     justify-content: space-around;
+}
+.navbar{
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+}
+
+.navbar input{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border: 0px;
+margin-left: 22px;
+margin-top: 22px;
+height: 39px;
+}
+.navbar button{
+    background-color:#8652FF;
+    border: 0px;
+    font-size: 14px;
+    margin-right: 16px;
+    margin-top: 22px;
+    padding: 0px 12px;
+    height: 39px;
+    border-radius: 6px;
+    color: white;
+}
+.company1{
+    display: flex;
+ 
+
+   margin: auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   text-align: center;
+    width: 40%;
+}
+.company1 img{
+    width: 40px;
+}
+.company1 p{
+    font-weight: bolder;
+}
+
+.company2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.compButton button{
+    border: 0px;
+    font-weight: bolder;
+    background-color: rgb(123, 163, 199);
+    padding: 7px;margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.compButton{
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+}
+
+.emptop p{
+font-size: 45px;
+font-weight: bold;
+color: #38404C;
+}
+.emptop button{
+    height: fit-content;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 25px;
+    justify-content: center;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px 00px;
+}
+.emptop{display: flex;
+    justify-items: center;
+   
+    background-color: aliceblue;
+    justify-content: center;
+    height: 200px;
+margin: auto;}
+
+.emplButton>div{
+ display: flex;
+ 
+ box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.emplButton{
+    display: grid;
+    font-weight: bolder;
+    font-size: 22px;
+    grid-template-columns: repeat(2,400px);
+    gap: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.emplButton img{
+    margin-right: 20px;
+    width: 60px;
 }
