@@ -21,7 +21,7 @@ function Employer(){
                 <p>Data Science Head</p>
             </div>
             <div>
-            <img src="https://i.ibb.co/4fTkk0z/sss.png" alt="" />
+            <img src="https://i.ibb.co/4fTkk0z/sss.png" alt="v" />
                 <p>Chief Marketing Officer</p>
             </div>
             <div>
