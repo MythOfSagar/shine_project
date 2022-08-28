@@ -9,7 +9,7 @@ function Employer(){
             <button style={{backgroundColor:'blue'}}>Post a Job</button>
         </div>
         <div style={{backgroundColor:'white'}} className={styles.emptop}>
-            <p>Aspire to Senior Roles in Career</p>
+            <p>Aspire To Senior Roles in Career</p>
         </div>
         <div className={styles.emplButton}>
             <div>
